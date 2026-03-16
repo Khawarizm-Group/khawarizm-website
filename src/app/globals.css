@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --kh-bg: #050505;
+  --kh-bg-subtle: #0a0a0a;
+  --kh-surface: #111111;
+  --kh-surface-hover: #161616;
+  --kh-elevated: #1a1a1a;
+
+  --kh-text: #fcf9f0;
+  --kh-text-secondary: #a0a0a0;
+  --kh-text-tertiary: #666666;
+  --kh-text-muted: #444444;
+
+  --kh-border: #1e1e1e;
+  --kh-border-subtle: #141414;
+  --kh-border-strong: #343434;
+
+  --kh-accent: #fcf9f0;
+  --kh-accent-hover: #ffffff;
+  --kh-accent-muted: #d8d2c8;
+
+  --kh-shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.18);
+  --kh-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.24);
+  --kh-shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.3);
+  --kh-shadow-glow: 0 0 24px rgba(252, 249, 240, 0.05);
+
+  --kh-radius-sm: 0.375rem;
+  --kh-radius-md: 0.625rem;
+  --kh-radius-lg: 1rem;
+  --kh-radius-xl: 1.5rem;
+  --kh-radius-2xl: 2rem;
+  --kh-radius-full: 9999px;
+
+  --kh-space-xs: 0.5rem;
+  --kh-space-sm: 0.75rem;
+  --kh-space-md: 1rem;
+  --kh-space-lg: 1.5rem;
+  --kh-space-xl: 2rem;
+  --kh-space-2xl: 3rem;
+  --kh-space-3xl: 4rem;
+  --kh-space-4xl: 6rem;
+  --kh-space-5xl: 8rem;
+  --kh-space-section: clamp(5rem, 12vw, 10rem);
+
+  --kh-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --kh-duration: 220ms;
+
+  --kh-weight-light: 300;
+  --kh-weight-regular: 400;
+  --kh-weight-medium: 500;
+  --kh-weight-semibold: 600;
+  --kh-weight-bold: 700;
+
+  --kh-text-xs: 0.75rem;
+  --kh-text-sm: 0.875rem;
+  --kh-text-base: 1rem;
+  --kh-text-lg: 1.125rem;
+  --kh-text-xl: 1.25rem;
+  --kh-text-2xl: 1.5rem;
+  --kh-text-3xl: clamp(1.75rem, 2.5vw, 2rem);
+  --kh-text-4xl: clamp(2rem, 3.5vw, 2.5rem);
+  --kh-text-5xl: clamp(2.5rem, 5vw, 3.5rem);
+  --kh-text-display: clamp(3rem, 7vw, 5rem);
+
+  --kh-leading-none: 1;
+  --kh-leading-tight: 1.2;
+  --kh-leading-snug: 1.35;
+  --kh-leading-normal: 1.6;
+  --kh-leading-relaxed: 1.75;
+
+  --kh-tracking-tighter: -0.02em;
+  --kh-tracking-tight: -0.01em;
+  --kh-tracking-normal: 0;
+  --kh-tracking-wide: 0.025em;
+  --kh-tracking-wider: 0.05em;
+}
+
+@theme inline {
+  --color-background: var(--kh-bg);
+  --color-foreground: var(--kh-text);
+  --color-surface: var(--kh-surface);
+  --color-surface-hover: var(--kh-surface-hover);
+  --color-elevated: var(--kh-elevated);
+  --color-muted: var(--kh-text-secondary);
+  --color-subtle: var(--kh-text-tertiary);
+  --color-faint: var(--kh-text-muted);
+  --color-border: var(--kh-border);
+  --color-border-subtle: var(--kh-border-subtle);
+  --color-border-strong: var(--kh-border-strong);
+  --color-accent: var(--kh-accent);
+  --color-accent-hover: var(--kh-accent-hover);
+  --color-accent-muted: var(--kh-accent-muted);
+
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}

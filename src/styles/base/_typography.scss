@@ -1,0 +1,93 @@
+.font-display-ar {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.navbar-brand-font {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.text-display {
+  font-size: var(--kh-text-display);
+  font-weight: var(--kh-weight-bold);
+  line-height: var(--kh-leading-tight);
+  letter-spacing: var(--kh-tracking-tighter);
+  color: var(--kh-text);
+}
+
+h1,
+.text-h1 {
+  font-size: var(--kh-text-5xl);
+  font-weight: var(--kh-weight-bold);
+  line-height: var(--kh-leading-tight);
+  letter-spacing: var(--kh-tracking-tighter);
+  color: var(--kh-text);
+}
+
+h2,
+.text-h2 {
+  font-size: var(--kh-text-4xl);
+  font-weight: var(--kh-weight-bold);
+  line-height: var(--kh-leading-tight);
+  letter-spacing: var(--kh-tracking-tight);
+  color: var(--kh-text);
+}
+
+h3,
+.text-h3 {
+  font-size: var(--kh-text-3xl);
+  font-weight: var(--kh-weight-semibold);
+  line-height: var(--kh-leading-snug);
+  letter-spacing: var(--kh-tracking-tight);
+  color: var(--kh-text);
+}
+
+h4,
+.text-h4 {
+  font-size: var(--kh-text-xl);
+  font-weight: var(--kh-weight-semibold);
+  line-height: var(--kh-leading-snug);
+  letter-spacing: var(--kh-tracking-normal);
+  color: var(--kh-text);
+}
+
+p,
+.text-body {
+  font-size: var(--kh-text-base);
+  font-weight: var(--kh-weight-regular);
+  line-height: var(--kh-leading-normal);
+  letter-spacing: var(--kh-tracking-normal);
+  color: var(--kh-text-secondary);
+}
+
+.text-body-lg {
+  font-size: var(--kh-text-lg);
+  font-weight: var(--kh-weight-regular);
+  line-height: var(--kh-leading-relaxed);
+  letter-spacing: var(--kh-tracking-normal);
+  color: var(--kh-text-secondary);
+}
+
+.text-small {
+  font-size: var(--kh-text-sm);
+  font-weight: var(--kh-weight-regular);
+  line-height: var(--kh-leading-normal);
+  letter-spacing: var(--kh-tracking-wide);
+  color: var(--kh-text-tertiary);
+}
+
+.text-overline {
+  font-size: var(--kh-text-xs);
+  font-weight: var(--kh-weight-medium);
+  line-height: var(--kh-leading-none);
+  letter-spacing: var(--kh-tracking-wider);
+  text-transform: uppercase;
+  color: var(--kh-accent-muted);
+}
+
+.text-mono {
+  font-family: var(--font-mono), monospace;
+  font-size: var(--kh-text-sm);
+  letter-spacing: var(--kh-tracking-normal);
+}

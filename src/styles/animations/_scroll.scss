@@ -1,0 +1,19 @@
+.section-reveal {
+  opacity: 0;
+  transform: translateY(2rem);
+  will-change: opacity, transform;
+}
+
+.section-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.pin-spacer {
+  flex-shrink: 0 !important;
+}
+
+.gsap-hidden-during-pin {
+  visibility: hidden;
+  pointer-events: none;
+}

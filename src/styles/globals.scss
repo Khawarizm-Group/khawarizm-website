@@ -1,0 +1,13 @@
+@use "base/reset";
+@use "base/typography";
+
+@use "sections/hero";
+@use "sections/about";
+@use "sections/tech-marquee";
+@use "sections/services";
+@use "sections/featured-work";
+@use "sections/footer";
+@use "sections/cta";
+@use "sections/contact";
+
+@use "animations/scroll";
