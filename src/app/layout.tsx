@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "خوارزم — Khwarizm",
+  title: "Khwarizm",
   description: "وكالة تقنية متميزة تصنع تجارب رقمية استثنائية",
 };
 
