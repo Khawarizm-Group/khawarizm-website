@@ -18,8 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Khwarizm",
-  description: "وكالة تقنية متميزة تصنع تجارب رقمية استثنائية",
-};
+  description: "Integrated digital solutions with precise execution."
 
 export default function RootLayout({
   children,
