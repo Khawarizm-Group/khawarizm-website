@@ -78,11 +78,11 @@ export default function Footer() {
                     <div className="footer-col">
                         <span className="footer-heading">تواصل</span>
                         <a
-                            href="mailto:hello@khawarizm.com"
+                            href="mailto:info@khawarizm.com"
                             className="footer-link-item"
                         >
                             <Mail size={16} strokeWidth={1.5} />
-                            <span>hello@khawarizm.com</span>
+                            <span>info@khawarizm.com</span>
                         </a>
                         <a
                             href="https://github.com/Khawarizm-Group"

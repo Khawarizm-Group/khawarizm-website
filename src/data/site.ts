@@ -6,7 +6,7 @@ export const siteConfig = {
         "وكالة تقنية سعودية متميزة متخصصة في بناء المنتجات الرقمية الراقية — من التصميم إلى الإطلاق.",
 
     contact: {
-        email: "hello@khawarizm.com",
+        email: "info@khawarizm.com",
         location: "الرياض، المملكة العربية السعودية",
     },
 
